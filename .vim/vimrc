@@ -260,22 +260,6 @@ let NERDTreeMapCloseDir = "n"
 let NERDTreeMapChangeRoot = "y"
 
 " ===
-" === You Complete ME
-" ===
-nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
-nnoremap g/ :YcmCompleter GetDoc<CR>
-nnoremap gt :YcmCompleter GetType<CR>
-nnoremap gr :YcmCompleter GoToReferences<CR>
-let g:ycm_autoclose_preview_window_after_completion=0
-let g:ycm_autoclose_preview_window_after_insertion=1
-let g:ycm_use_clangd = 0
-let g:ycm_python_binary_path = g:ycm_python_interpreter_path
-"let g:ycm_python_interpreter_path = system('which python3')
-"let g:ycm_python_binary_path = system('which python3')
-"let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
-"let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
-
-" ===
 " === vim-indent-guide
 " ===
 let g:indent_guides_guide_size = 1
