@@ -264,19 +264,6 @@ let g:ctrlp_prompt_mappings = {
   \ }
 
 
-
-" ===
-" === UltiSnip
-" ===
-autocmd WinEnter * silent! iunmap <C-z>
-autocmd WinEnter * silent! unmap <C-z>
-autocmd WinEnter * silent! vunmap <C-z>
-let g:UltiSnipsExpandTrigger           = '<C-z>'
-let g:UltiSnipsJumpForwardTrigger      = '<C-z>'
-"let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
-
-
-
 " Testring my own plugin
 if !empty(glob('~/Github/vim-calc/vim-calc.vim'))
   source ~/Github/vim-calc/vim-calc.vim
