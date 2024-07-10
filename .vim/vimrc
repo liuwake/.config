@@ -106,9 +106,6 @@ let mapleader=" "
 " Open the vimrc file anytime
 map <LEADER>rc :e ~/.vim/vimrc<CR>
 
-" Copy to system clipboard
-vnoremap Y :w !xclip -i -sel c<CR>
-
 " ===
 " === Other useful stuff
 " ===
