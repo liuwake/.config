@@ -130,7 +130,6 @@ Plug 'vim-airline/vim-airline'
 " File navigation
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'ctrlpvim/ctrlp.vim', { 'on': 'CtrlP' }
 
 " Other visual enhancement
 Plug 'itchyny/vim-cursorword'
