@@ -172,15 +172,6 @@ Plug 'majutsushi/tagbar', { 'on': 'TagbarOpenAutoClose' }
 " Error checking
 Plug 'w0rp/ale'
 
-" Auto Complete
-
-" Undo Tree
-Plug 'mbbill/undotree/'
-
-" Snippits
-" Plug 'SirVer/ultisnips'  , { 'for': ['vim-plug', 'python'] }  
-" Plug 'honza/vim-snippets', { 'for': ['vim-plug', 'python'] }
-
 " Other visual enhancement
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'itchyny/vim-cursorword'
@@ -304,6 +295,4 @@ let g:multi_cursor_next_key            = '<c-k>'
 let g:multi_cursor_prev_key            = '<c-p>'
 let g:multi_cursor_skip_key            = '<C-x>'
 let g:multi_cursor_quit_key            = '<Esc>'
-
-source ~/.vim/snippits.vim
 
