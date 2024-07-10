@@ -139,6 +139,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-surround' " type ysks' to wrap the word with '' or type cs'` to change 'word' to `word`
 Plug 'godlygeek/tabular' " type ;Tabularize /= to align the =
+Plug 'christoomey/vim-tmux-navigator'
 
 " Dependencies
 Plug 'MarcWeber/vim-addon-mw-utils'
