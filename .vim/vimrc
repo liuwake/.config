@@ -132,9 +132,6 @@ Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ctrlpvim/ctrlp.vim', { 'on': 'CtrlP' }
 
-" Error checking
-Plug 'w0rp/ale'
-
 " Other visual enhancement
 Plug 'preservim/vim-indent-guides'
 Plug 'itchyny/vim-cursorword'
@@ -145,10 +142,6 @@ Plug 'rhysd/conflict-marker.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
 Plug 'gisphm/vim-gitignore', { 'for': ['gitignore', 'vim-plug'] }
-
-" Python
-Plug 'vim-scripts/indentpython.vim'
-" Plug 'vim-python/python-syntax', { 'for' :['python', 'vim-plug'] }
 
 " Other useful utilities
 Plug 'jiangmiao/auto-pairs'
@@ -188,21 +181,6 @@ let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_color_change_percent = 1
 silent! unmap <LEADER>ig
 autocmd WinEnter * silent! unmap <LEADER>ig
-
-
-" ===
-" === ale
-" ===
-let b:ale_linters = [] "['pylint']
-" let b:ale_fixers = ['autopep8', 'yapf']
-let g:ale_python_pylint_options = "--extension-pkg-whitelist=pygame"
-
-
-" ===
-" === Python-syntax
-" ===
-let g:python_highlight_all = 1
-" let g:python_slow_sync = 0
 
 
 " ===
