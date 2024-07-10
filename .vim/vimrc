@@ -168,13 +168,3 @@ colorscheme catppuccin_mocha
 map <F2> :NERDTreeToggle<CR>
 map <LEADER>nt :NERDTreeToggle<CR>
 
-
-" ===
-" === CtrlP
-" ===
-map <C-p> :CtrlP<CR>
-let g:ctrlp_prompt_mappings = {
-  \ 'PrtSelectMove("j")':   ['<c-e>', '<down>'],
-  \ 'PrtSelectMove("k")':   ['<c-u>', '<up>'],
-  \ }
-
