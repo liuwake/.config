@@ -135,10 +135,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'itchyny/vim-cursorword'
 
 " Git
-Plug 'rhysd/conflict-marker.vim'
-Plug 'tpope/vim-fugitive'
 Plug 'mhinz/vim-signify'
-Plug 'gisphm/vim-gitignore', { 'for': ['gitignore', 'vim-plug'] }
 
 " Other useful utilities
 Plug 'jiangmiao/auto-pairs'
