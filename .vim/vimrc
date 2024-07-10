@@ -187,13 +187,6 @@ Plug 'gisphm/vim-gitignore', { 'for': ['gitignore', 'vim-plug'] }
 Plug 'vim-scripts/indentpython.vim'
 " Plug 'vim-python/python-syntax', { 'for' :['python', 'vim-plug'] }
 
-" For general writing
-Plug 'reedes/vim-wordy'
-Plug 'ron89/thesaurus_query.vim'
-
-" Bookmarks
-Plug 'kshenoy/vim-signature'
-
 " Other useful utilities
 Plug 'jiangmiao/auto-pairs'
 Plug 'terryma/vim-multiple-cursors'
