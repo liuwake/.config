@@ -81,7 +81,8 @@ set formatoptions-=tc
 
 " Show command autocomplete
 set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc
-set wildmenu                                                 " show a navigable menu for tab completion
+set wildmenu
+" show a navigable menu for tab completion
 set wildmode=longest,list,full
 
 " Searching options
@@ -222,17 +223,4 @@ if !empty(glob('~/Github/vim-calc/vim-calc.vim'))
   source ~/Github/vim-calc/vim-calc.vim
 endif
 " map <LEADER>a :call Calc()<CR>
-
-" ==
-" == vim-multiple-cursor
-" ==
-let g:multi_cursor_use_default_mapping=0
-let g:multi_cursor_start_word_key      = '<c-k>'
-let g:multi_cursor_select_all_word_key = '<a-k>'
-let g:multi_cursor_start_key           = 'g<c-k>'
-let g:multi_cursor_select_all_key      = 'g<a-k>'
-let g:multi_cursor_next_key            = '<c-k>'
-let g:multi_cursor_prev_key            = '<c-p>'
-let g:multi_cursor_skip_key            = '<C-x>'
-let g:multi_cursor_quit_key            = '<Esc>'
 
